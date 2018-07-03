@@ -4,9 +4,36 @@
   <title>Schedule</title>
   <meta charset="utf-8">
   <style>
+    body {
+    min-width: 300px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    }
+
+    .main-menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    a {
+        color: #0088cc;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active {
+        color: lightgrey;
+        text-decoration: none;
+    }
+
     h2, h3 {
         text-align: center;
     }
+
     table {
         width: 100%;
         border-spacing: 0;
@@ -15,6 +42,7 @@
         table-layout: fixed;
         border-collapse: collapse;
       }
+
       td, th {
         border: 1px solid black;
         padding: 10px;
@@ -22,6 +50,9 @@
   </style>
 </head>
 <body>
+   <ul class="main-menu">
+    <li>Расписание</li>
+  </ul>
   <h2>Расписание электричек Нижний Новгород &ndash; Семенов</h2>
   <h3>2 июля 2018 года</h3>
   <table>
@@ -33,21 +64,21 @@
       <th>Цена билета</th>
     </tr>
     <tr>
-      <td>6520 Нижний Новгород (Московский вокзал) — Семёнов</td>
+      <td><a href="./about_train.html">6520 Нижний Новгород (Московский вокзал) — Семёнов</a></td>
       <td>12:35</td>
       <td>1 ч 10 мин</td>
       <td>13:45</td>
       <td>149 р.</td>
     </tr>
     <tr>
-      <td>6522/6524 Нижний Новгород (Московский вокзал) — Урень</td>
+      <td><a href="#">6522/6524 Нижний Новгород (Московский вокзал) — Урень</a></td>
       <td>13:05</td>
       <td>53 мин</td>
       <td>13:58</td>
       <td>149 р.</td>
     </tr>
     <tr>
-      <td>6530 Нижний Новгород (Московский вокзал) — Ветлужская</td>
+      <td><a href="#">6530 Нижний Новгород (Московский вокзал) — Ветлужская</a></td>
       <td>15:40</td>
       <td>1 ч 7 мин</td>
       <td>16:47</td>
