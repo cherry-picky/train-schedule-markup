@@ -3,14 +3,14 @@
   padding: 0;
   list-style: none;
 }
-li {
+.main-menu li {
   display: inline-block;
 }
-a {
+.main-menu a {
   color: #0088cc;
   text-decoration: none;
 }
 
-a:hover {
+.main-menu a:hover {
   text-decoration: underline;
 }
